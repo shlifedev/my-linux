@@ -1,6 +1,12 @@
 # 노트북
 개인 노트북 성능 최적화용 
 
+
+<details>
+    <summary>성능 최적화</summary>
+
+<!-- summary 아래 한칸 공백 두고 내용 삽입 -->
+
 ## irqbalance 해제하기.
 선택적 옵션
 ```sh
@@ -51,3 +57,6 @@ WantedBy=hybrid-sleep.target
 `$ systemctl enable undervolt`
 
 
+
+
+</details>
