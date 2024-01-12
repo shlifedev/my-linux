@@ -31,7 +31,7 @@ $ sudo undervolt --core -75 --gpu -100 --cache -75 --uncore -75 -analogio -75
 ### 자동 실행 등록
 1. nano로 다음 경로에 서비스를 생성 `/etc/systemd/system/undervolt.service`
 ```                   
-[ㅁUnit]
+[Unit]
 Description=undervolt
 After=suspend.target
 After=hibernate.target
