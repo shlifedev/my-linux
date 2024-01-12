@@ -3,6 +3,20 @@
 
 
 <details>
+    <summary>가상 파일시스템 연동</summary>
+
+vfs들을 찾아 해매다가 dbvfs(드롭박스), davfs(webdav) 다 좋았지만 문제는 동영상 스트리밍이 안된다. 네트워크 메타데이터 이슈도 많았기 때문에...
+그러나 다음 도구는 윈도우즈의 `raidrive` 같은 역할을 훌륭하게 수행한다.
+
+```sh
+$ sudo apt install rclone
+```
+
+아 나중에 쓸래 귀찮앙!
+
+</details>
+
+<details>
     <summary>성능 최적화</summary>
 
 <!-- summary 아래 한칸 공백 두고 내용 삽입 -->
